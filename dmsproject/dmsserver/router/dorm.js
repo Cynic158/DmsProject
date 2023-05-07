@@ -1,0 +1,24 @@
+const express = require("express");
+const dormhandler = require("../routerhandler/dormhandler");
+const router = express.Router();
+router.get("/getroomlist", dormhandler.getroomlist);
+router.get("/getbuildinglist", dormhandler.getbuildinglist);
+router.get("/getroomstuinfo", dormhandler.getroomstuinfo);
+router.get("/getremainlist", dormhandler.getremainlist);
+router.get("/getadjustlist", dormhandler.getadjustlist);
+router.get("/getadjustdetail", dormhandler.getadjustdetail);
+router.get("/getadjuststatus", dormhandler.getadjuststatus);
+router.get("/nopassadjust", dormhandler.nopassadjust);
+router.get("/passadjust", dormhandler.passadjust);
+router.get("/deleteadjust", dormhandler.deleteadjust);
+router.get("/roomexist", dormhandler.roomexist);
+router.get("/startadjust", dormhandler.startadjust);
+router.get("/getadjustbyroom", dormhandler.getadjustbyroom);
+router.get("/canceladjust", dormhandler.canceladjust);
+router.get("/finishadjust", dormhandler.finishadjust);
+router.get("/changedormjob", dormhandler.changedormjob);
+router.get("/confirmstep", dormhandler.confirmstep);
+router.get("/addadjust", dormhandler.addadjust);
+router.get("/stucanceladjust", dormhandler.stucanceladjust);
+
+module.exports = router;
