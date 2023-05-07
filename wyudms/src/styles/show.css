@@ -1,0 +1,174 @@
+.form-enter-from {
+  opacity: 0;
+}
+.form-enter-active {
+  transition: all 0.5s;
+}
+.form-enter-to {
+  opacity: 1;
+}
+.form-leave-from {
+  opacity: 1;
+}
+.form-leave-active {
+  transition: all 0.5s;
+}
+.form-leave-to {
+  opacity: 0;
+}
+
+.aform-enter-from {
+  opacity: 0;
+}
+.aform-enter-active {
+  transition: all 0.5s;
+}
+.aform-enter-to {
+  opacity: 1;
+}
+.aform-leave-from {
+  opacity: 1;
+}
+.aform-leave-active {
+  transition: all 0.5s;
+}
+.aform-leave-to {
+  opacity: 0;
+}
+
+.nform-enter-from {
+  opacity: 0;
+}
+.nform-enter-active {
+  transition: all 0.5s;
+}
+.nform-enter-to {
+  opacity: 1;
+}
+.nform-leave-from {
+  opacity: 1;
+}
+.nform-leave-active {
+  transition: all 0.5s;
+}
+.nform-leave-to {
+  opacity: 0;
+}
+
+.mform-enter-from {
+  opacity: 0;
+}
+.mform-enter-active {
+  transition: all 0.5s;
+}
+.mform-enter-to {
+  opacity: 1;
+}
+.mform-leave-from {
+  opacity: 1;
+}
+.mform-leave-active {
+  transition: all 0.5s;
+}
+.mform-leave-to {
+  opacity: 0;
+}
+
+.mt-enter-from {
+  opacity: 0;
+}
+.mt-enter-active {
+  transition: all 0.5s;
+}
+.mt-enter-to {
+  opacity: 1;
+}
+.mt-leave-from {
+  opacity: 1;
+}
+.mt-leave-active {
+  transition: all 0.5s;
+}
+.mt-leave-to {
+  opacity: 0;
+}
+
+.room-enter-from {
+  opacity: 0;
+}
+.room-enter-active {
+  transition: all 0.5s;
+}
+.room-enter-to {
+  opacity: 1;
+}
+.room-leave-from {
+  opacity: 1;
+}
+.room-leave-active {
+  transition: all 0.5s;
+}
+.room-leave-to {
+  opacity: 0;
+}
+
+.confirm-enter-from {
+  opacity: 0;
+}
+.confirm-enter-active {
+  transition: all 0.5s;
+}
+.confirm-enter-to {
+  opacity: 1;
+}
+.confirm-leave-from {
+  opacity: 1;
+}
+.confirm-leave-active {
+  transition: all 0.5s;
+}
+.confirm-leave-to {
+  opacity: 0;
+}
+
+.detail-enter-from {
+  height: 0px;
+}
+.detail-enter-active {
+  transition: all 0.5s;
+}
+.detail-enter-to {
+  height: 250px;
+}
+.detail-leave-from {
+  height: 250px;
+}
+.detail-leave-active {
+  transition: all 0.5s;
+}
+.detail-leave-to {
+  height: 0;
+}
+
+.adjust-enter-from {
+  opacity: 0;
+}
+.adjust-enter-active {
+  transition: all 0.5s;
+}
+.adjust-enter-to {
+  opacity: 1;
+}
+.adjust-leave-from {
+  opacity: 1;
+}
+.adjust-leave-active {
+  transition: all 0.5s;
+}
+.adjust-leave-to {
+  opacity: 0;
+}
+
+* {
+  transition: background-color 0.3s;
+}

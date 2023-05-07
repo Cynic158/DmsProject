@@ -1,0 +1,18 @@
+.t-enter-from {
+  opacity: 0;
+}
+.t-enter-active {
+  transition: all 1s;
+}
+.t-enter-to {
+  opacity: 1;
+}
+.t-leave-from {
+  opacity: 1;
+}
+.t-leave-active {
+  transition: all 1s;
+}
+.t-leave-to {
+  opacity: 0;
+}
